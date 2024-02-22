@@ -1,0 +1,12 @@
+[prafful@MyLinuxVM ~]$ pwd
+/home/prafful
+[prafful@MyLinuxVM ~]$ cd professional-scripts/
+[prafful@MyLinuxVM professional-scripts]$ ls -ltr archive_project
+-rwxrwxr-x. 1 prafful prafful 601 Feb 22 09:41 archive_project
+[prafful@MyLinuxVM professional-scripts]$ date
+Thu Feb 22 09:47:56 IST 2024
+[prafful@MyLinuxVM professional-scripts]$ crontab -e
+crontab: installing new crontab
+[prafful@MyLinuxVM professional-scripts]$ crontab -l
+55 09 * * * /home/prafful/professional-scripts/archive_project
+[prafful@MyLinuxVM professional-scripts]$
